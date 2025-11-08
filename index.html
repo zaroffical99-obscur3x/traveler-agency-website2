@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Enhanced SEO Meta Tags -->
+    <title>The Travel Globe - Premium Travel Packages | Luxury Tours & Vacations 2026</title>
+    <meta name="description" content="Book exclusive travel packages to Maldives, Europe, Dubai, Japan, Thailand, Singapore & more. Expert travel planning, luxury accommodations, 24/7 support.">
+    <meta name="keywords" content="luxury travel packages, international tours 2026, Maldives vacation, Europe tour, Dubai luxury, Japan cherry blossom, Thailand tours, Singapore travel, Istanbul Turkey">
+    <meta name="author" content="The Travel Globe">
+    <meta name="robots" content="index, follow, max-image-preview:large">
+    <link rel="canonical" href="https://thetravelglobe.com/">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://thetravelglobe.com/">
+    <meta property="og:site_name" content="The Travel Globe">
+    <meta property="og:title" content="The Travel Globe - Premium Travel Packages">
+    <meta property="og:description" content="Discover curated travel experiences to the world's most breathtaking destinations.">
+    <meta property="og:image" content="https://thetravelglobe.com/globelogo.png">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="The Travel Globe - Premium Travel Packages">
+    <meta name="twitter:description" content="Luxury travel packages to exotic destinations worldwide.">
+    <meta name="twitter:image" content="https://thetravelglobe.com/globelogo.png">
+    
+    <link rel="icon" type="image/png" href="globelogo.png">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" />
+    
+    <!-- AOS Animation Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" />
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "TravelAgency",
+      "name": "The Travel Globe",
+      "url": "https://thetravelglobe.com",
+      "logo": "https://thetravelglobe.com/globelogo.png",
+      "telephone": "+92-317-199-1742",
+      "email": "jassonmiller363@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Rawalpindi",
+        "addressRegion": "Punjab",
+        "addressCountry": "PK"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "287"
+      }
+    }
+    </script>
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="header-container">
+            <div class="logo-section" onclick="window.location.hash='home'">
+                <div class="logo-frame">
+                    <img src="globelogo.png" alt="The Travel Globe logo">
+                </div>
+                <div class="site-title">The Travel Globe</div>
+            </div>
+            
+            <nav class="nav-desktop">
+                <a href="#home" class="nav-link active">
+                    <i class="fas fa-home"></i> Home
+                </a>
+                <a href="#packages" class="nav-link">
+                    <i class="fas fa-box-open"></i> Packages
+                </a>
+                <a href="#about" class="nav-link">
+                    <i class="fas fa-info-circle"></i> About
+                </a>
+                <a href="#contact" class="nav-link">
+                    <i class="fas fa-envelope"></i> Contact
+                </a>
+                <a href="#reviews" class="nav-link">
+                    <i class="fas fa-star"></i> Reviews
+                </a>
+                <a href="#faq" class="nav-link">
+                    <i class="fas fa-question-circle"></i> FAQ
+                </a>
+                <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle dark mode">
+                    <i class="fas fa-moon" id="themeIcon"></i>
+                    <span id="themeText">Night</span>
+                </button>
+            </nav>
+            
+            <button class="hamburger" onclick="toggleMobileMenu()" aria-label="Toggle menu">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+        
+        <nav class="mobile-menu" id="mobileMenu">
+            <a href="#home" class="nav-link" onclick="toggleMobileMenu()">
+                <i class="fas fa-home"></i> Home
+            </a>
+            <a href="#packages" class="nav-link" onclick="toggleMobileMenu()">
+                <i class="fas fa-box-open"></i> Packages
+            </a>
+            <a href="#about" class="nav-link" onclick="toggleMobileMenu()">
+                <i class="fas fa-info-circle"></i> About
+            </a>
+            <a href="#contact" class="nav-link" onclick="toggleMobileMenu()">
+                <i class="fas fa-envelope"></i> Contact
+            </a>
+            <a href="#reviews" class="nav-link" onclick="toggleMobileMenu()">
+                <i class="fas fa-star"></i> Reviews
+            </a>
+            <a href="#faq" class="nav-link" onclick="toggleMobileMenu()">
+                <i class="fas fa-question-circle"></i> FAQ
+            </a>
+            <button class="theme-toggle mt-1" onclick="toggleTheme()" style="width: 100%;">
+                <i class="fas fa-moon" id="themeIconMobile"></i>
+                <span id="themeTextMobile">Night Mode</span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <!-- Beautiful Destinations Slider -->
+        <div class="hero-slider" id="heroSlider"></div>
+        
+        <div class="hero-content">
+            <div class="logo-frame hero-logo">
+                <img src="globelogo.png" alt="The Travel Globe logo">
+            </div>
+            <h1 data-aos="fade-up">Discover Your Next Adventure</h1>
+            <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="200">
+                Curated travel experiences to the world's most breathtaking destinations
+            </p>
+            <a href="#packages" class="cta-button" data-aos="fade-up" data-aos-delay="400">
+                <span>Explore Packages</span>
+                <i class="fas fa-arrow-right"></i>
+            </a>
+        </div>
+        
+        <!-- Offers Ticker -->
+        <div class="offers-ticker">
+            <div class="ticker-label"><i class="fas fa-star"></i> BEST OFFERS THIS SEASON</div>
+            <div class="ticker-track" id="tickerTrack"></div>
+        </div>
+    </section>
+
+    <!-- Packages Section -->
+    <section id="packages">
+        <div class="section-header" data-aos="fade-up">
+            <h2>Our Premium Packages</h2>
+            <p>Handpicked destinations tailored to create unforgettable memories</p>
+        </div>
+        
+        <div class="packages-grid" id="packagesGrid"></div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="section-header" data-aos="fade-up">
+            <h2>About The Travel Globe</h2>
+            <p>Your trusted partner in crafting extraordinary journeys</p>
+        </div>
+        
+        <div class="about-content">
+            <div class="about-text" data-aos="fade-right">
+                <h3>Creating Memories Since Day One</h3>
+                <p>At The Travel Globe, we believe travel is more than just visiting new places—it's about creating stories, forging connections, and discovering parts of yourself you never knew existed. Our team of passionate travel experts curates every journey with meticulous attention to detail.</p>
+                <p>From exotic beaches to mountain retreats, bustling cities to serene countryside, we offer diverse experiences that cater to every traveler's dream. With years of expertise and a network spanning the globe, we turn your travel aspirations into reality.</p>
+                <p>Join thousands of satisfied travelers who have trusted us to make their adventures unforgettable. Your journey begins here.</p>
+            </div>
+            
+            <div class="about-features" data-aos="fade-left">
+                <div class="feature-item">
+                    <i class="fas fa-globe-americas"></i>
+                    <h4>Global Network</h4>
+                    <p>Partnerships with premium hotels, airlines, and local guides worldwide</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-user-tie"></i>
+                    <h4>Expert Guidance</h4>
+                    <p>Personalized travel planning from experienced destination specialists</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-gem"></i>
+                    <h4>Luxury Experience</h4>
+                    <p>Handpicked accommodations and exclusive experiences</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-shield-alt"></i>
+                    <h4>24/7 Support</h4>
+                    <p>Round-the-clock assistance throughout your journey</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="section-header" data-aos="fade-up">
+            <h2>Get In Touch</h2>
+            <p>Ready to start your adventure? We're here to help</p>
+        </div>
+        
+        <div class="contact-wrapper">
+            <div class="contact-form" data-aos="fade-right">
+                <h3><i class="fas fa-paper-plane"></i> Send Us a Message</h3>
+                <form id="contactForm" onsubmit="handleContactSubmit(event)">
+                    <div class="form-group">
+                        <label for="contactName">
+                            <i class="fas fa-user"></i> Name *
+                        </label>
+                        <input type="text" id="contactName" required placeholder="Your full name">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="contactEmail">
+                            <i class="fas fa-envelope"></i> Email
+                        </label>
+                        <input type="email" id="contactEmail" placeholder="your.email@example.com">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="contactPhone">
+                            <i class="fas fa-phone"></i> Phone
+                        </label>
+                        <input type="tel" id="contactPhone" placeholder="+92 3xx xxxxxxx">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="messageType">
+                            <i class="fas fa-list"></i> Message Type *
+                        </label>
+                        <select id="messageType" required>
+                            <option value="">Select type...</option>
+                            <option value="General Inquiry">General Inquiry</option>
+                            <option value="Book a Package">Book a Package</option>
+                            <option value="Complaint">Complaint</option>
+                            <option value="Partnership">Partnership Opportunity</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="contactMessage">
+                            <i class="fas fa-comment-dots"></i> Message *
+                        </label>
+                        <textarea id="contactMessage" required placeholder="Tell us how we can help you..."></textarea>
+                    </div>
+                    
+                    <input type="hidden" id="selectedPackage" value="">
+                    
+                    <button type="submit" class="btn-submit">
+                        <span>Send Message</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+            
+            <div class="contact-info" data-aos="fade-left">
+                <div class="info-card">
+                    <div class="info-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <div class="info-text">
+                        <h4>Phone / WhatsApp</h4>
+                        <p>+92 317 199 1742</p>
+                    </div>
+                </div>
+                
+                <div class="info-card">
+                    <div class="info-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="info-text">
+                        <h4>Email</h4>
+                        <p>jassonmiller363@gmail.com</p>
+                    </div>
+                </div>
+                
+                <div class="info-card">
+                    <div class="info-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="info-text">
+                        <h4>Location</h4>
+                        <p>Rawalpindi, Punjab, Pakistan</p>
+                    </div>
+                </div>
+                
+                <div class="quick-actions">
+                    <a href="https://wa.me/923171991742" target="_blank" class="quick-btn">
+                        <i class="fab fa-whatsapp"></i> WhatsApp
+                    </a>
+                    <a href="tel:+923171991742" class="quick-btn">
+                        <i class="fas fa-phone"></i> Call Now
+                    </a>
+                    <a href="mailto:jassonmiller363@gmail.com" class="quick-btn">
+                        <i class="fas fa-envelope"></i> Email
+                    </a>
+                    <a href="https://www.facebook.com/share/1Cpr3JwALY/" target="_blank" class="quick-btn">
+                        <i class="fab fa-facebook"></i> Facebook
+                    </a>
+                </div>
+                
+                <div class="map-placeholder">
+                    <i class="fas fa-map-marked-alt"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section id="reviews" style="background: var(--bg-light-alt);">
+        <div class="section-header" data-aos="fade-up">
+            <h2>What Our Travelers Say</h2>
+            <p>Real experiences from real travelers who chose The Travel Globe</p>
+        </div>
+        
+        <div class="reviews-grid" id="reviewsGrid"></div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq">
+        <div class="section-header" data-aos="fade-up">
+            <h2>Frequently Asked Questions</h2>
+            <p>Everything you need to know about traveling with us</p>
+        </div>
+        
+        <div class="faq-list">
+            <div class="faq-item" data-aos="fade-up">
+                <button class="faq-question" onclick="toggleFAQ(this)">
+                    How do I book a package?
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <p>Booking is simple! Browse our packages, select your preferred destination, and click "Book Now". You can also contact us directly via WhatsApp, phone, or email. Our team will guide you through the entire booking process and answer any questions you may have.</p>
+                </div>
+            </div>
+            
+            <div class="faq-item" data-aos="fade-up" data-aos-delay="100">
+                <button class="faq-question" onclick="toggleFAQ(this)">
+                    What's included in the package price?
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <p>Our packages typically include accommodation, select meals, airport transfers, guided tours, and entry fees to major attractions. Specific inclusions vary by package—check the package details or contact us for a comprehensive breakdown of what's covered.</p>
+                </div>
+            </div>
+            
+            <div class="faq-item" data-aos="fade-up" data-aos-delay="200">
+                <button class="faq-question" onclick="toggleFAQ(this)">
+                    Can I customize a package?
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <p>Absolutely! We specialize in creating personalized travel experiences. Whether you want to extend your stay, add special activities, or adjust the itinerary, our team will work with you to craft the perfect journey tailored to your preferences and budget.</p>
+                </div>
+            </div>
+            
+            <div class="faq-item" data-aos="fade-up" data-aos-delay="300">
+                <button class="faq-question" onclick="toggleFAQ(this)">
+                    What is your cancellation policy?
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <p>Our cancellation policy varies depending on the package and booking timeline. Generally, cancellations made 30+ days before departure receive a full refund minus processing fees. For specific terms, please refer to your booking confirmation or contact our support team.</p>
+                </div>
+            </div>
+            
+            <div class="faq-item" data-aos="fade-up" data-aos-delay="400">
+                <button class="faq-question" onclick="toggleFAQ(this)">
+                    Do you provide travel insurance?
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <p>We strongly recommend travel insurance and can help you arrange comprehensive coverage through our trusted partners. Insurance typically covers trip cancellation, medical emergencies, lost luggage, and more. Contact us to discuss the best options for your journey.</p>
+                </div>
+            </div>
+            
+            <div class="faq-item" data-aos="fade-up" data-aos-delay="500">
+                <button class="faq-question" onclick="toggleFAQ(this)">
+                    Are payment plans available?
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <p>Yes! We offer flexible payment plans to make your dream vacation more accessible. Typically, we require a deposit at booking with the balance due before departure. Contact us to discuss payment options that work best for your budget.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#packages">Packages</a>
+                <a href="#about">About Us</a>
+                <a href="#contact">Contact</a>
+                <a href="#reviews">Reviews</a>
+                <a href="#faq">FAQ</a>
+            </div>
+            
+            <div class="footer-social">
+                <a href="https://www.facebook.com/share/1Cpr3JwALY/" target="_blank" class="social-icon" aria-label="Facebook">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://wa.me/923171991742" target="_blank" class="social-icon" aria-label="WhatsApp">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+                <a href="mailto:jassonmiller363@gmail.com" class="social-icon" aria-label="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+                <a href="tel:+923171991742" class="social-icon" aria-label="Phone">
+                    <i class="fas fa-phone"></i>
+                </a>
+            </div>
+            
+            <p>&copy; 2025 The Travel Globe. All rights reserved.</p>
+            <p style="font-size: 0.9rem; opacity: 0.8; margin-top: 0.5rem;">Your Gateway to Extraordinary Adventures</p>
+        </div>
+    </footer>
+
+    <!-- AOS Animation Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous"></script>
+    
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
